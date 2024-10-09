@@ -72,7 +72,13 @@ const products = [
 
 //part 3
 //1
-const rated = products.filter((product) => product.rating >= 4.5);
-products.forEach((rated) => {
-  console.log(products.name);
+// const rated = products.filter((product) => product.rating >= 4.5);
+// rated.forEach((rated) => {
+//   console.log(rated.name);
+// });
+
+//2
+const afford = products.filter((product) => product.price < 1000);
+afford.forEach((afford) => {
+  console.log(afford);
 });
