@@ -16,9 +16,9 @@
 // console.log(topStudents);
 
 //part 3
-// const above80 = students.filter((student) => student.grade > 80);
-// const namesabove80 = above80.map((student) => student.name);
-// console.log(namesabove80);
+const above80 = students.filter((student) => student.grade > 80);
+const namesabove80 = above80.map((student) => student.name);
+console.log(namesabove80);
 
 // const age21 = students.filter((student) => student.age <= 21);
 // const nameage21 = age21.map((student) => student.name);
